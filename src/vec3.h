@@ -3,8 +3,7 @@
 #include <iostream>
 
 // A 3D vector class used for positions, directions, and colors.
-struct Vec3
-{
+struct Vec3 {
   double x, y, z;
 
   // Constructors
@@ -27,15 +26,13 @@ struct Vec3
   Vec3 operator*(const Vec3 &v) const { return {x * v.x, y * v.y, z * v.z}; }
 
   // Compound assignment
-  Vec3 &operator+=(const Vec3 &v)
-  {
+  Vec3 &operator+=(const Vec3 &v) {
     x += v.x;
     y += v.y;
     z += v.z;
     return *this;
   }
-  Vec3 &operator*=(double t)
-  {
+  Vec3 &operator*=(double t) {
     x *= t;
     y *= t;
     z *= t;
@@ -51,22 +48,10 @@ struct Vec3
 
   Vec3 normalized() const { return *this / length(); }
 
-  static double dot(const Vec3 &a, const Vec3 &b)
-  {
-    return a.x * b.x + a.y * b.y + a.z * b.z;
-  }
+  static double dot(const Vec3 &a, const Vec3 &b) { return a.x * b.x + a.y * b.y + a.z * b.z; }
 
-  static Vec3 cross(const Vec3 &a, const Vec3 &b)
-  {
-    return {
-        a.y * b.z - a.z * b.y,
-        a.z * b.x - a.x * b.z,
-        a.x * b.y - a.y * b.x};
-  }
-  void print() const
-  {
-    std::cout << "(" << x << ", " << y << ", " << z << ")\n";
-  }
+  static Vec3 cross(const Vec3 &a, const Vec3 &b) { return {a.y * b.z - a.z * b.y, a.z * b.x - a.x * b.z, a.x * b.y - a.y * b.x}; }
+  void print() const { std::cout << "(" << x << ", " << y << ", " << z << ")\n"; }
 };
 
 // Allow: 3.0 * v  (scalar on the left)
