@@ -4,7 +4,7 @@ A small C++ project to simulate a black hole and its accretion disk. The primary
 
 ## Planned Features
 
-- [ ] Schwarzschild metric, flat disk - Non-rotating black hole, thin disk in the equatorial plane. Gets you the basic shadow and lensing effect relatively quickly.
+- [ ] Schwarzschild metric, flat disk - Non-rotating black hole, thin disk in the equatorial plane.
 - [ ] Add Doppler and gravitational redshift — The side of the disk rotating toward you appears brighter and blueshifted; the other side is dimmer and redshifted.
 - [ ] Kerr metric — A spinning black hole drags spacetime (frame dragging), which distorts the image further and shifts the innermost stable circular orbit (ISCO).
 - [ ] Disk emission model — Instead of a flat color, give the disk a temperature profile (hotter near the center) and map it to a blackbody color.
@@ -20,7 +20,7 @@ A small C++ project to simulate a black hole and its accretion disk. The primary
 
 ## Physics & Math
 
-Detailed physics and math notes can be found in [docs/NOTEBOOK.md](docs/PHYSICS.md).
+Detailed physics and math notes can be found in [docs/](docs/).
 
 ## References
 
