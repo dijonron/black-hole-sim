@@ -24,6 +24,7 @@ A small C++ project to simulate a black hole and its accretion disk. The primary
 
 ## References
 
+- [General Relativity: An Introduction for Physicists](https://ia601900.us.archive.org/8/items/gnsecBooks/%5BM._P._Hobson%2C_G._P._Efstathiou%2C_A._N._Lasenby%5D_Ge%28BookFi%29.pdf)
 - [Gravitational Lensing by Spinning Black Holes in
   Astrophysics, and in the Movie Interstellar](https://arxiv.org/pdf/1502.03808)
 
