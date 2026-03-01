@@ -76,6 +76,12 @@ $$
 (dl)^2 = (dr)^2 + (rd\theta)^2 + (r\sin{\theta} d\phi)^2.
 $$
 
-### Flat Schwarzschild Metric
+### Flat Schwarzschild Metric [2]
 
-The simplest scenario to consider is a particle moving through spacetime curved by a massive sphere.
+The simplest scenario to consider is a particle moving through spacetime curved by a massive sphere. We'll skip the deriviation here, but the Schwarzschild metric for the empty spacetime outside a spherical body of mass $M$ is
+
+$$
+ds^2 = c^2 \left( 1 - \frac{2GM}{c^2r}\right)dt^2 - \left(1 - \frac{2GM}{c^2r}\right)^{-1}dr^2 - r^2d\theta^2-r^2\sin^2\theta d\phi.
+$$
+
+Because of the spherical symmetry of the Schwarzschild metric, we can reduce the problem to that of a 2D ODE, by constraining the photons to the equitorial plane.

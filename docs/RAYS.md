@@ -1,6 +1,6 @@
 # Ray Tracing
 
-## Schwarzschild Metric
+## Flat Schwarzschild
 
 A ray is defined as the points you can reach by travelling straight from the origin in some direction for a distance $t$: $P(t) = origin + t * direction$. We want to find where (if anywhere) it intersects our accretion disk or event horizon.
 
@@ -55,3 +55,7 @@ $$
 origin_y+t∗dir_y = 0, \\
 t = -origin_y /dir_y
 $$
+
+## Schwarzschild Metric
+
+Instead of tracing the rays along a straight line, we will shoot rays from the camera and integrate their path through the curved spacetime. If the path falls into the event horizon, it will be black. If it hits the accretion disk, it will be coloured. If it escapes to infinity, it will be a background pixel.
