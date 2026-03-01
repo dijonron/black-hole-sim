@@ -79,5 +79,3 @@ $$
 ### Flat Schwarzschild Metric
 
 The simplest scenario to consider is a particle moving through spacetime curved by a massive sphere.
-
-(Expanded Schwarzschild equations and geodesic examples can be added here as you implement numeric integrators and ray tracing.)
