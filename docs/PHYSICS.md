@@ -1,4 +1,36 @@
-## Physics & Math
+# Physics & Math
+
+## Newtonian Derivation
+
+For a simple simulation, we can use Newton's law of universal gravitation,
+
+$$
+F = G\frac{mM}{r^2},
+$$
+
+to determine the radius at which light cannot escape the gravitational field of an object.
+
+If we integrate the force, we can find the work required to move an object of mass $m$ from $R$ (the surface of the gravitational source of mass $M) to infinity (i.e. escape from the gravitational field),
+
+$$
+U = \int_R^{\inf} G\frac{mM}{r^2} dr = G\frac{mM}{R}.
+$$
+
+An object with kinetic enregy equal to this will have the minimal required velocity yo escape,
+
+$$
+\frac{mv^2}{2} = G\frac{mM}{R},\\
+v = \sqrt{\frac{2GM}{R}}.
+$$
+
+For light, $v=c$, so we can solve this to find the radius $R$ at which light cannot escape from an object of mass $M$,
+
+$$
+c = \sqrt{\frac{2GM}{R}}, \\
+R_S = \frac{2GM}{c^2}.
+$$
+
+## Relativistic Derivation
 
 ### Flat Spacetime [1]
 
